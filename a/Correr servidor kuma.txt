@@ -1,0 +1,16 @@
+--------------------       Correr servidores
+
+Kuma
+
+pm2 start server/server.js --name uptime-kuma
+
+
+--------------------        Entorno virtual
+
+python3 -m venv .venv
+
+. .venv/bin/activate
+
+-------------------        Ejecutar app
+
+python3 app.py
